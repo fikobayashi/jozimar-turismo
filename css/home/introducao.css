@@ -1,0 +1,36 @@
+.introducao {
+  padding-bottom: 40px;
+}
+
+.introducao p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.introducao-conteudo {
+  margin-bottom: 40px;
+}
+
+.receptivo-lista ul {
+  display: flex;
+  /* justify-content: center; */
+  gap: 80px;
+  max-width: 1200px;
+  max-height: 475px;
+  overflow-y: hidden;
+  overflow-x: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.receptivo-lista li {
+  flex: 1;
+  min-width: 280px;
+}
+
+@media (max-width: 525px) {
+  .introducao {
+    padding-top: 50px;
+  }
+}

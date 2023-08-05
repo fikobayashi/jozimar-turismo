@@ -1,0 +1,70 @@
+.passeios-descricao {
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+.passeios-galeria {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+  grid-auto-rows: auto;
+  
+}
+
+.passeios-item img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
+}
+
+.passeios-item img:hover {
+  -webkit-transform: scale(1.2);
+   transform: scale(1.2);
+}
+
+.passeios-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.passeios-item span {
+  position: absolute;
+  background-color: rgba(0,0,0,0.8);
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: var(--cor-0);
+  padding: 5px;
+  font-family: 'Quicksand';
+}
+
+.h-1 {
+  grid-row: span 1;
+}
+
+.h-2 {
+  grid-row: span 2;
+}
+
+.w-1 {
+  grid-column: span 1;
+}
+
+.w-2 {
+  grid-column: span 2;
+}
+
+@media (max-width: 800px) {
+  .passeios-galeria {
+    grid-template-columns: 1fr;
+  }
+  .h-2{
+    grid-row: span 1;
+  }
+
+  .w-2{
+      grid-column: span 1;
+  }
+}

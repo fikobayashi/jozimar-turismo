@@ -1,0 +1,40 @@
+.footer-bg {
+  background: #fff;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 3fr 5fr 4fr;
+  gap: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer li {
+  margin-bottom: 10px;
+}
+
+.footer a:hover {
+  color: var(--cor-5);
+}
+
+.footer-contato h3,
+.footer-informacoes h3 {
+  padding-bottom: 20px;
+}
+
+.footer-redes {
+  display: flex;
+  padding-top: 20px;
+  gap: 20px;
+}
+
+.footer-copy {
+  align-self: end;
+}
+
+@media (max-width: 800px) {
+  .footer {
+    grid-template-columns: 1fr;
+  }
+}
