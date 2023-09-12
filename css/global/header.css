@@ -64,7 +64,7 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 480px) {
   .header-menu {
     gap: 30px;
     font-size: 0.8rem;
