@@ -80,6 +80,6 @@
 
 @media (max-width: 320px) {
   .header-menu {
-    gap: 10px;
+    gap: 8px;
   }
 }
