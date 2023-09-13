@@ -10,6 +10,12 @@
   padding-bottom: 60px;
 }
 
+.footer #fixed {
+  position: fixed;
+  right: 10px;
+  bottom: 50px;
+}
+
 .footer li {
   margin-bottom: 10px;
 }
