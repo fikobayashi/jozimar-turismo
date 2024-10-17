@@ -1,14 +1,15 @@
 * {
   scroll-behavior: smooth;
   margin: 0;
-  padding: 0;
   box-sizing: border-box;
+  
 }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
   background: var(--cor-4);
   color: var(--cor-6);
+ 
 }
 
 ul {
