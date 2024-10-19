@@ -29,8 +29,15 @@
   min-width: 280px;
 }
 
-@media (max-width: 525px) {
+@media (max-width: 640px) {
+  .introducao #sobre {
+    font-size: 1.35rem;
+    text-align: center;
+}
+}
+
+/* @media (max-width: 525px) {
   .introducao {
     padding-top: 50px;
   }
-}
+} */

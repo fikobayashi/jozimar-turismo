@@ -13,9 +13,12 @@
 <body>
   <header class="header-bg">
     <div class="header container">
-      <!-- <a href="./"> -->
-      <img class="logo" src="./img/jozimar-logo3.png" width="169" height="172" alt="logo">
-      <!-- </a> -->
+      <picture>
+        <source media="(max-width: 680px)" srcset="./img/jozimar-logo3-4.png" />
+        <source media="(min-width: 800px)" srcset="./img/jozimar-logo3.png" />
+        <img class="logo" src="./img/jozimar-logo3.png" width="" height="" alt="logo">
+      </picture>
+      
       <nav aria-label="primaria">
         <ul class="header-menu">
           <li><a href="./">Home</a></li>
