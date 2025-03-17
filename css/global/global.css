@@ -7,7 +7,9 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background: var(--cor-4);
+  /* background: var(--cor-4); */
+  /* background: var(--cor-0); */
+  background: azure;
   color: var(--cor-6);
 }
 

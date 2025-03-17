@@ -1,5 +1,6 @@
 .footer-bg {
-  background: #fff;
+  /* background: #fff; */
+  background: var(--cor-4);
 }
 
 .footer {
@@ -21,7 +22,9 @@
 }
 
 .footer a:hover {
-  color: var(--cor-5);
+  /* color: var(--cor-5); */
+  /* color: var(--cor-0); */
+  color: azure;
 }
 
 .footer-contato h3,
