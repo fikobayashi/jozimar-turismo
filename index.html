@@ -18,16 +18,38 @@
   <header class="header-bg">
     <div class="header container">
       <picture>
-        <source media="(max-width: 680px)" srcset="./img/jozimar-logo3-4.png" />
+        <source media="(max-width: 768px)" srcset="./img/jozimar-logo3-4.png" />
         <source media="(min-width: 800px)" srcset="./img/jozimar-logo3.png" />
         <img class="logo" src="./img/jozimar-logo3.png" width="" height="" alt="logo">
       </picture>
       
-      <nav aria-label="primaria">
+      <nav class="menu-desktop" aria-label="primaria">
         <ul class="header-menu">
           <li><a href="./">Home</a></li>
           <li><a href="#sobre">Sobre</a></li>
           <li><a href="#receptivos">Receptivos</a></li>
+          <li><a href="#passeios">Passeios</a></li>
+          <li class="invisible"><a href="https://bit.ly/JOZIMARTURISMO">Contato</a></li>
+        </ul>
+      </nav>
+      <nav class="menu-mobile" aria-label="secundaria">
+        <input type="checkbox" name="open-menu" id="open-menu">
+        <label for="open-menu"><img src="./img/list.svg" alt="icone menu mobile" width="20" height="34"></label>
+        <ul class="header-menu">
+          <li>
+            <label for="open-menu"><img src="./img/x.svg" alt="icone close menu mobile" width="18" height="18"></label>
+          </li>
+          <li><a href="./">
+              Home
+        
+            </a></li>
+          <li>
+            <a href="#sobre">
+              Sobre
+            </a>
+          </li>
+          <li><a href="#receptivos">
+              Receptivos</a></li>
           <li><a href="#passeios">Passeios</a></li>
           <li class="invisible"><a href="https://bit.ly/JOZIMARTURISMO">Contato</a></li>
         </ul>
