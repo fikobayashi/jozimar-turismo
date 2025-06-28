@@ -10,7 +10,7 @@ body {
   /* background: var(--cor-4); */
   /* background: var(--cor-0); */
   background: azure;
-  color: var(--cor-6);
+  color: var(--cor-7);
  
 }
 
@@ -20,5 +20,5 @@ ul {
 
 a {
   text-decoration: none;
-  color: var(--cor-6);
+  color: var(--cor-7);
 }
