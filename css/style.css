@@ -6,6 +6,7 @@
 /* Home */
 @import './home/introducao.css';
 @import './home/passeios.css';
+@import './home/modal.css';
 
 /* Utilidades */
 @import './utilidades/componentes.css';
